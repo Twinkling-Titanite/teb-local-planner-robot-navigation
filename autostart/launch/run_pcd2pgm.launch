@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find pcd2pgm)/launch/run.launch" />
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find autostart)/rviz/map_rviz.rviz"/>
+</launch>
