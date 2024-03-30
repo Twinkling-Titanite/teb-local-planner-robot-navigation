@@ -1,4 +1,0 @@
-<launch>    
-    <node name="bag_player" pkg="rosbag" type="play" args="--loop $(find autostart)/bag/newcar.bag"/>
-    <include file="$(find lio_sam)/launch/run.launch"/>
-</launch>
